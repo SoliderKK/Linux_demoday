@@ -1,4 +1,4 @@
-stages
+stages:
   - run
 build:
     image: frolvlad/alpine-bash
