@@ -36,4 +36,4 @@ success: window 9 opened
 0[\/][\/][\/][\/][\/][\/][\/][\/][\/][\/]
 '
 
-diff <(echo "$IN" | awk -f demo.awk) <(echo "%OUT")
+diff <(echo "$IN" | awk -f ../demo.awk) <(echo "%OUT")
