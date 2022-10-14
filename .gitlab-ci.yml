@@ -1,0 +1,11 @@
+stages
+  - run
+build:
+    image: frolvlad/alpine-bash
+    stage: run
+    tags:
+      - k8s
+    script:
+      - echo "Script run"
+      - bash test.sh
+      - echo "Script done"
